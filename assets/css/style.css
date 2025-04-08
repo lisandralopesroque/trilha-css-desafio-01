@@ -1,4 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+
 @import url("reset.css");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
 
 body {
   background: black;
@@ -107,7 +113,7 @@ body {
 #transform-world {
   height: 560px;
   background-size: cover;
-  background-image: url(../images/woman-code.png);
+  background-image: url("../images/woman-code.png");
   background-attachment: fixed;
   border-top: 1px solid #33a8db80;
   border-bottom: 1px solid #33a8db80;
@@ -149,4 +155,10 @@ footer {
     rgba(50, 168, 219, 0.2)
   );
   border-top: 1px solid #33a8db80;
+}
+
+footer a {
+  color: #33a8db;
+  font-weight: bold;
+  text-decoration: none;
 }
